@@ -11,11 +11,11 @@ time.sleep(3)
 username = driver.find_element_by_xpath(
     """/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input"""
 )
-username.send_keys("aman_danate")
+username.send_keys("USERNAME")
 password = driver.find_element_by_xpath(
     """/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[2]/div/label/input"""
 )
-password.send_keys("fakeid")
+password.send_keys("PASSWORD")
 
 password.send_keys(Keys.ENTER)
 time.sleep(6)
