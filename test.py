@@ -27,7 +27,7 @@ password.send_keys(password1)
 password.send_keys(Keys.ENTER)
 time.sleep(6)
 
-# users wwho you want to follow
+# users who you want to follow
 userFollow = ["aman_danate1", "chodary6523", "dhruvsai60", "amarsahu1844"]
 
 # loop
