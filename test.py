@@ -10,6 +10,10 @@ window.geometry("420x420")
 window.title("Konhito Bot")
 window.config(background="black")
 
+
+label = Label(window, text="Hello World", bg="black", fg="white")
+label.pack()
+
 window.mainloop()
 
 Username1 = input("Username: ")
