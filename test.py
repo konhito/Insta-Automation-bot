@@ -2,6 +2,15 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
 import time
+from tkinter import *
+
+
+window = Tk()
+window.geometry("420x420")
+window.title("Konhito Bot")
+window.config(background="black")
+
+window.mainloop()
 
 Username1 = input("Username: ")
 password1 = input("Password: ")
@@ -58,3 +67,4 @@ for i in range(len(userFollow)):
     ).click()
 
     time.sleep(3)
+    print(f"Followed {userFollow[i]}")
