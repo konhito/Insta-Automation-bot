@@ -19,10 +19,10 @@ password.send_keys("PASSWORD")
 
 password.send_keys(Keys.ENTER)
 time.sleep(6)
-x = ["aman_danate1", "chodary6523", "dhruvsai60", "amarsahu1844"]
+userFollow = ["aman_danate1", "chodary6523", "dhruvsai60", "amarsahu1844"]
 
 
-for i in range(len(x)):
+for i in range(len(userFollow)):
     driver.find_element_by_xpath(
         """/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[1]/div/div/div/div/div[2]/div[2]"""
     ).click()
@@ -31,7 +31,7 @@ for i in range(len(x)):
         """/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[1]/div/div/div[2]/div/div/div[2]/div/div/div[1]/div/div/input"""
     )
     time.sleep(3)
-    search.send_keys(x[i])
+    search.send_keys(userFollow[i])
 
     time.sleep(3)
 
