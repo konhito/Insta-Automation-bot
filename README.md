@@ -17,7 +17,7 @@ Before running the bot, ensure you have the following set up on your system:
 2. Selenium library (install using `pip install selenium`)
 3. Chrome or Firefox browser (the bot is currently designed for Chrome, but can be adapted for Firefox as well)
 4. Download Cromedriver - https://chromedriver.chromium.org/downloads
-5. Paste your cromedrive location at s = service
+5. Paste your cromedrive location path at s = Service
 
 ## Getting Started
 1. Clone this repository to your local machine.
